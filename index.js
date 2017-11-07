@@ -1,6 +1,13 @@
 module.exports = function drop(dispatch){
-dispatch.hook('C_PLAYER_LOCATION', 1, event => {
-        if(event.type == 2 || event.type == 10) return false;        
-})
-;
+        const command = require('command')(dispatch);
+        var enabled = true;
+        
+        command.add('fall', ()=>{
+                enabled = !enabled;
+                command.message("Fall damage has been " + (enabled?"enabled.":"disabled."));
+        });
+        
+        dispatch.hook('C_PLAYER_LOCATION', 1, e=>{
+                return !([2, 10].includes(e.type));       
+        });
 }
