@@ -1,3 +1,5 @@
+Defs upate + auto update feature
+
 Improved TeraNoFallDamage - original made by Gus.
 
 Command added: !fall to enable/disable fall damage
