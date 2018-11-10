@@ -1,11 +1,10 @@
 module.exports = function drop(dispatch){
-        const command = require('command')(dispatch);
         var enabled = true;
         var currZone;
         
-        command.add('fall', ()=>{
+        dispatch.command.add('fall', ()=>{
                 enabled = !enabled;
-                command.message("Fall damage has been " + (enabled?"enabled.":"disabled."));
+                dispatch.command.message("Fall damage has been " + (enabled?"enabled.":"disabled."));
         });
         
         dispatch.hook('S_LOAD_TOPO', 3, e=>{
