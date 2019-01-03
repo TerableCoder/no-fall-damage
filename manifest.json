@@ -1,9 +1,4 @@
 {
-	"files": {
-		"README.md": "7585cc76038d6cf44f9a8f6ee0a56cce3278f6d7a4a2fee60a99bb38486c4b72",
-		"index.js": "e831a073df06007d158680a66d2b04e105d560bd7a993a90587b6b4c1773ad4e",
-		"module.json": "c83ac5b14552771020a4a79dee6294f0f30da8c5dbf021ad99e0ea5279ce903b"
-	},
 	"defs": {
 		"C_PLAYER_LOCATION": 5,
 		"S_LOAD_TOPO": 3
