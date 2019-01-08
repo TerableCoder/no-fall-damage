@@ -1,0 +1,9 @@
+{
+    "disableAutoUpdate": false,
+    "name": "adfsdf",
+    "author": "Kasea / Fatvallon / Terablecoder",
+    "homepage": "https://github.com/TerableCoder/no-fall-damage",
+    "description": "Take no fall damage, with a toggle",
+    "version": "3",
+    "servers": ["https://raw.githubusercontent.com/TerableCoder/no-fall-damage/master/"]
+}
